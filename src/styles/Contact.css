@@ -1,0 +1,35 @@
+.contact {
+  padding: 50px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact label {
+  text-align: left;
+}
+
+.contact input {
+  padding: 10px;
+  font-size: 1em;
+}
+
+.contact button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #f9a825;
+}
