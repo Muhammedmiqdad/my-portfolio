@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://Muhammedmiqdad.github.io/my-portfolio",
   "scripts": {
-    "start": "webpack serve --open",
+    "start": "webpack serve --port 9000 & opn-cli http://localhost:9000",
     "build": "webpack --mode production",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -22,6 +22,7 @@
     "css-loader": "^5.2.6",
     "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.3.1",
+    "opn-cli": "^5.0.0",
     "style-loader": "^3.0.0",
     "webpack": "^5.42.1",
     "webpack-cli": "^4.7.2",
